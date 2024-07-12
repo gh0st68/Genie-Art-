@@ -41,6 +41,12 @@ GenieArt is an IRC bot that generates images based on user prompts using the Ope
 
 1. Open the `genieart.py` file.
 2. Replace `'PUT API KEY HERE'` with your OpenAI API key.
+3. To change the IRC network and channel, modify the following lines in the `main` function:
+   ```python
+   server = "irc.twistednet.org"  # Change to your desired IRC server
+   channel = "#twisted"           # Change to your desired channel
+   nickname = "I"                 # Change to your desired nickname
+   ```
 
 ## Usage
 
